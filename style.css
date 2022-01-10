@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+}
+.header {
+  border: 1px solid green;
+  background-color: #4b74e6;
+  height: 70px;
+  display: flex;
+}
+.header .img {
+  width: 60%;
+}
+.header .img img {
+  width: 277px;
+  margin: 0;
+  padding: 20px 110px;
+}
+.menu {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+.menu li {
+  line-height: 70px;
+  list-style: none;
+  margin: 0 10px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+.zem img {
+  width: 20px;
+  position: relative;
+}
+.zem {
+  background-color: white;
+  border-radius: 30px;
+  color: black;
+  padding: 10px;
+}
+.fa-user-circle {
+  margin-top: 15px;
+  font-size: 40px;
+}
+
+.container {
+  display: flex;
+  max-width: 1150px;
+  margin: auto;
+  margin-bottom: 40px;
+  background-color: #f3f5f9;
+}
+.section-1 {
+  width: 70%;
+}
+.btn {
+  float: right;
+  margin: 10px;
+  width: 200px;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 30px;
+}
+.btn-1 {
+  background-color: white;
+  color: black;
+}
+.btn-2 {
+  background-color: palevioletred;
+  color: white;
+}
+
+.section-2 {
+  margin: 20px;
+  width: 30%;
+}
+.blog {
+  width: 100%;
+  border-radius: 20px;
+  height: 550px;
+}
+.blog .search {
+  border: hidden;
+  width: 100%;
+  height: 40px;
+  border-radius: 20px;
+  background-color: white;
+}
+.blog-1 {
+  border-radius: 20px;
+  width: 100%;
+  height: 90%;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.blog-2 {
+  width: 97%;
+  border-radius: 20px;
+  padding: 5px;
+  visibility: ;
+  background-color: white;
+  margin-top: 10px;
+}
+
+.footer {
+  padding: 30px;
+  width: 100%;
+  height: 400px;
+  background-color:#4b74e6;
+  
+}
+footer section{
+  display: flex;
+  height: 350px;
+}
+
+
+.part-1 {
+  color: white;
+  width: 40%;
+  padding: 30px;
+}
+.part-1 li {
+  list-style: none;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.part-2 {
+  color: white;
+  width: 20%;
+  padding: 30px;
+}
+.part-2 ul{
+  display: flex;
+  padding: 0;
+}
+.part-2 ul li{
+ list-style: none;
+ margin: 5px;
+}
+.fas,.far{
+  margin-right: 10px;
+}
+.font-wasome li a {
+  line-height: 40px;
+  font-size: 16px;
+  /* color: #a5b7d9; */
+  width: 40px;
+  display: block;
+  border: 1px solid #a5b7d9;
+  border-radius: 50%;
+  text-align: center;
+}
+.part-3 {
+  color: white;
+  width: 40%;
+  padding: 30px;
+}
+.text-center{
+  text-align: center;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+}
